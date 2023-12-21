@@ -1,0 +1,107 @@
+
+//+------------------------------------------------------------------+
+//|                          Trading box Rectangle extender MT5      |
+//|                        https://www.forexroboteasy.com             |
+//|                        Developed by Forex Robot Easy Team         |
+//+------------------------------------------------------------------+
+
+#property copyright 'Forex Robot Easy Team'
+#property link      'https://www.forexroboteasy.com'
+
+//+------------------------------------------------------------------+
+//|                                Constants                         |
+//+------------------------------------------------------------------+
+enum ObjectType
+{
+   OBJ_RECTANGLE_EXTENDER,
+   OBJ_TRENDLINE_EXTENDER
+};
+
+//+------------------------------------------------------------------+
+//|                     Trading Box Rectangle Extender                |
+//+------------------------------------------------------------------+
+void TradingBoxRectangleExtender()
+{
+   // Extend rectangles and trendlines to the right edge of the chart
+   ExtendObjectsToRightEdge();
+
+   // Place price alerts on extended rectangles and trendlines
+   SetPriceAlerts();
+
+   // Mark supply and demand zones with extended rectangles
+   MarkSupplyAndDemandZones();
+
+   // Draw support and resistance lines with extended trendlines
+   DrawSupportAndResistanceLines();
+
+   // Visualize extended objects on the chart
+   VisualizeExtendedObjects();
+
+   // Make informed trading decisions based on the extended objects
+   MakeTradingDecisions();
+}
+
+//+------------------------------------------------------------------+
+//|                   Extend Objects to Right Edge                    |
+//+------------------------------------------------------------------+
+void ExtendObjectsToRightEdge()
+{
+   // Code to extend rectangles and trendlines to the right edge of the chart
+}
+
+//+------------------------------------------------------------------+
+//|                      Set Price Alerts                              |
+//+------------------------------------------------------------------+
+void SetPriceAlerts()
+{
+   // Code to set price alerts on extended rectangles and trendlines
+}
+
+//+------------------------------------------------------------------+
+//|                  Mark Supply and Demand Zones                      |
+//+------------------------------------------------------------------+
+void MarkSupplyAndDemandZones()
+{
+   // Code to mark supply and demand zones with extended rectangles
+}
+
+//+------------------------------------------------------------------+
+//|               Draw Support and Resistance Lines                    |
+//+------------------------------------------------------------------+
+void DrawSupportAndResistanceLines()
+{
+   // Code to draw support and resistance lines with extended trendlines
+}
+
+//+------------------------------------------------------------------+
+//|                Visualize Extended Objects                          |
+//+------------------------------------------------------------------+
+void VisualizeExtendedObjects()
+{
+   // Code to visualize extended objects on the chart
+}
+
+//+------------------------------------------------------------------+
+//|             Make Trading Decisions                                 |
+//+------------------------------------------------------------------+
+void MakeTradingDecisions()
+{
+   // Code to make informed trading decisions based on the extended objects
+}
+
+//+------------------------------------------------------------------+
+//|                           OnTick                                   |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+   TradingBoxRectangleExtender();
+}
+
+//+------------------------------------------------------------------+
+//|                      Contact Information                          |
+//+------------------------------------------------------------------+
+string GetContactInformation()
+{
+   string contactInfo = 'For assistance or questions, please contact the Forex Robot Easy Team at forexroboteasy.com';
+   return contactInfo;
+}
